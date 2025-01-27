@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ozon-parser-goods"
+version = "0.1.0"
+description = ""
+authors = ["Nikit <nikita_filinkov@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.27.1"
+requests = "^2.32.3"
+stealth = "^0.0.1"
+chromedriver = "^2.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
